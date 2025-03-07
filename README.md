@@ -26,7 +26,7 @@ Compare it to:
 🔗 [Repository test.c](https://github.com/compilers2025/compilers2025-classroom-de530b-linking-of-c-and-asm-files-lab2/blob/main/test.c)
 
 What are the differences between these files?
-
+The previous file relies on global variables for mathfunc to access i and j.However today's repository file uses function parameters, making mathfunc independent of global variables and more modular.
 ---
 
 ## 🛠 Understanding x86 Assembly (32-bit)

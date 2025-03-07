@@ -1,0 +1,7 @@
+all:    
+	as --32 -o math32.o math32.s
+	gcc -m32 -O0 -no-pie -o test32.o -c test.c
+	gcc -m32 -z noexecstack math32.o test32.o -o test32
+
+clean:
+	rm -f *.o	
